@@ -1,0 +1,23 @@
+.banner-title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 100px;
+}
+
+.banner-p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+.applyNow-btn{
+    margin-top: 32px;
+}
+.banner-img {
+    width: 500px;
+    height: 500px;
+    margin-left: 70px;
+   
+   
+}
