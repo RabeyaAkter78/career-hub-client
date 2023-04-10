@@ -1,0 +1,11 @@
+nav a{
+  margin-right: 20px;
+   font-size: 20px;
+}
+.applyNow-btn{
+    border: 2px solid rgb(158, 74, 218);
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+}
