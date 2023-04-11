@@ -17,6 +17,7 @@ const Home = () => {
             const res = await fetch('/featuredJobs.json');
             const data = await res.json();
             setDatas(data);
+            console.log(data)
 
         }
         fetchData();

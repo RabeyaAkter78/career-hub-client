@@ -2,9 +2,15 @@ import React, { useState } from 'react';
 import './FeaturedJob.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDollar, faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
+import { useLoaderData } from 'react-router-dom'
+import JobDetail from '../JobDetail/JobDetail';
 
 const FeaturedJob = ({ data }) => {
-    const { company_logo, job_title, company_name, remote_or_onsite, fulltime_or_parttime, location, salary } = data;
+    const { company_logo, job_title, company_name, remote_or_onsite, fulltime_or_parttime, location, salary, id } = data;
+
+    // const jobs = useLoaderData();
+
 
     return (
         <div>
@@ -22,7 +28,18 @@ const FeaturedJob = ({ data }) => {
                     <p><FontAwesomeIcon icon={faLocationDot} /> {location}</p>
                     <p>Salary: <FontAwesomeIcon icon={faDollar} />{salary}</p>
                 </div>
-                <button className='applyNow-btn'>View Details</button>
+
+                {/* {
+                    jobs.map(job => <JobDetail
+                        key={job.id}
+                        job={job}
+                    ></JobDetail>)
+                } */}
+
+
+                <button className='applyNow-btn'>
+                    <Link to={`/featuredJob/${id}`}>View Details</Link>
+                </button>
             </div>
         </div>
     );
