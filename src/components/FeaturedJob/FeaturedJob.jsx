@@ -1,12 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './FeaturedJob.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faDollar, faDollarSign, faLocation, faLocationArrow, faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faDollar, faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 const FeaturedJob = ({ data }) => {
-    const { company_logo, job_title, company_name, remote_or_onsite, fulltime_or_parttime, location, salary } = data
-    console.log(data)
-    // const {}=data
+    const { company_logo, job_title, company_name, remote_or_onsite, fulltime_or_parttime, location, salary } = data;
+
     return (
         <div>
             <div className='featured-container font-normal'>

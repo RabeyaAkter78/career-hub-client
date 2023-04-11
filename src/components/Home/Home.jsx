@@ -4,6 +4,7 @@ import './Home.css';
 import { useLoaderData } from 'react-router-dom'
 import CatagoryJob from '../CatagoryJob/CatagoryJob';
 import FeaturedJob from '../FeaturedJob/FeaturedJob';
+import AppliedJobs from '../AppliedJobs/AppliedJobs';
 
 const Home = () => {
     const jobs = useLoaderData();
@@ -13,7 +14,7 @@ const Home = () => {
 
     useEffect(() => {
         const fetchData = async () => {
-            const res = await fetch('featuredJobs.json');
+            const res = await fetch('/featuredJobs.json');
             const data = await res.json();
             setDatas(data);
 
@@ -53,7 +54,7 @@ const Home = () => {
 
             </div>
 
-            {/*  fet=atured jobs section */}
+            {/*  featured jobs section */}
             <div className='container mx-auto mt-8 mb-4 '>
                 <h2 className='text-2xl text-center font-bold'>Featured Jobs</h2>
                 <p className='text-center font-bold'>Explore thousands of job opportunities with all the information you need. Its your future</p>
@@ -67,6 +68,9 @@ const Home = () => {
                     }
                 </div>
             </div>
+
+          
+
 
 
         </div>

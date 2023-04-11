@@ -1,9 +1,10 @@
 import React from 'react';
 
-const AppliedJobs = () => {
+const AppliedJobs = ({ data }) => {
+  
     return (
         <div>
-                <h1>Applied Jobs section</h1>
+            <h1>Applied Jobs section:{data}</h1>
         </div>
     );
 };
