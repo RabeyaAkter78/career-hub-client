@@ -1,0 +1,19 @@
+.company-logo {
+    width: 100px;
+    height: 40px;
+
+}
+
+.job-type {
+    border: 1px solid indigo;
+    padding: 5px;
+}
+
+.featured-container {
+    width: 500px;
+    height: 300px;
+    color: #757575;
+    margin: 10px;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+}

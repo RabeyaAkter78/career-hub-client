@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "company_logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAB7CAMAAABjGQ9NAAAAZlBMVEX///8AAAD8/Pzu7u719fVDQ0Pq6upYWFjOzs7y8vLn5+fh4eE/Pz/Hx8e2traUlJQwMDCDg4NqamqOjo4mJiZ2dna8vLzV1dXb29ufn584ODhdXV2pqaljY2MdHR0ODg5OTk4XFxcnZYdTAAADhUlEQVRoge2b6ZKqMBCFDSKrbLIIgqLv/5KjDqUS0JyQTqx7a85vK5/ZOr2xWv2JTP6XuHaYu7uvkMN8yxhL1+bJ0ZndVQSmyd6Bse+w/ZI9dDC75s9JX3W2TKJj9qrj99AsMYiuxmi2N4fec+jCnF2ztxy7NIZe5RyaRcbQNY8+mbthR57dGENPps2MoVfl96Zt8eiDMTRv0RjzzLF3HNqgObU5dGsOzZvTjUH0qhmhU9ske3TDtkbRVvuCPhr1Vlb25isn/C7n9DhltTZI4EVV5e15/9Pph+V+PJtB1ZTntCgKN2sqZXfV8pIX5yAt4/3zSAX99lgm3rDRTlWe2EhpEyqQgyTlrSZL27j+xVn+438EsXua/JKxvl1qZO38MjPeTefMWz/Ote107Rx42JBFc4/eD3hTm8W17++78vzxZ4ue1UwwJC5X0upM3E8VXaTW3fm83rLqJY6cT4tmEsGKRbngg9Bln3iABCowM9dpQINOzdTnppCLvLGWyFYsEpb40rLiWHBqFxrQGYTm/D8aoSG5BrQLojXsdop6kRvxWLJCLVpAj4af74QcnaJoyyVnw6mfNTkajw/5FKG6KphN56MNOuBJxlY8mpxAY3rV+iAeTU54kjGkRjMHZvMpYWVBDsOvyI+5RE6Z/CHJcTb5FZMIxch94+7fYPMpSmVJrPkkEa8qiewT+bxxk0q/3xKlcHL2Bs84kN9vhpej6eMC3HWYlCCUhW+4R87Gex/o328Wo2yHPgaF/VRbQ9gPe03khk0iLqEPifC3jP6gXwUedV8HG3QYNcSCDH5J6S36Tdgl17LhKFwPGzvsGm74XQlw4Ogj8EGuuHw36SKgUyYMDHUt+k2uwMxEGtnCBpRpJZBMwtBQRzJ3kLBgE1x0oYHmFx2VmrsA66anXnL1IpB8l6ZrBj1neiZ+wXJOWiYO5l50TLxHowQNE4fTAA49G0XPdF+qCo6Nrg4rcXS0xdHk4bBcnzCptyyR87mJ8p5B1vRVhG+pfJswWUC8oL+M6pJvlnTVEZ31ZZ9dkERnElZlJIKLtriZ0FYuSUve7BFcscNHAS2c+eUzWqJWMyfrTUK/cJOoDoMw9Lrdu/+n3ow+k3zqd9HIDam7GUN0ofjqoebmVXQz/k/QccXUjKhHOHoufJq/DaTX3TOsyPFKqFB+nJVlmccij29dNUnTqfSl/un/1A8Z9jYxZ74pcQAAAABJRU5ErkJggg==",
+        "job_title": "Software Engineer",
+        "company_name": "Example Company",
+        "remote_or_onsite": "Remote",
+        "location": "Any",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "Competitive",
+        "job_description": "We are looking for a talented software engineer to join our team and help us build amazing products.",
+        "job_responsibility": "Design, develop, and maintain software applications.",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+        "experiences": "2+ years of experience in software development.",
+        "contact_information": {
+            "phone": "123-456-7890",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": 2,
+        "company_logo": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/image8-2.jpg?width=595&height=400&name=image8-2.jpg",
+        "job_title": "Marketing Manager",
+        "company_name": "Example Company",
+        "remote_or_onsite": "Onsite",
+        "location": "New York City",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "Competitive",
+        "job_description": "We are looking for an experienced marketing manager to join our team and help us grow our business.",
+        "job_responsibility": "Develop and execute marketing strategies to increase brand awareness and drive sales.",
+        "educational_requirements": "Bachelor's degree in Marketing or related field.",
+        "experiences": "5+ years of experience in marketing.",
+        "contact_information": {
+            "phone": "123-456-7890",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": 3,
+        "company_logo": "https://1000logos.net/wp-content/uploads/2016/10/Amazon-logo-meaning.jpg",
+        "job_title": "Data Analyst",
+        "company_name": "Example Company",
+        "remote_or_onsite": "Remote",
+        "location": "Any",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "Competitive",
+        "job_description": "We are looking for a data analyst to join our team and help us make data-driven decisions.",
+        "job_responsibility": "Collect and analyze data to identify trends and insights.",
+        "educational_requirements": "Bachelor's degree in Statistics or related field.",
+        "experiences": "2+ years of experience in data analysis.",
+        "contact_information": {
+            "phone": "123-456-7890",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": 4,
+        "company_logo": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/06/720/405/TESLA-LOGO.jpg?ve=1&tl=1",
+        "job_title": "Graphic Designer",
+        "company_name": "Example Company",
+        "remote_or_onsite": "Remote",
+        "location": "Any",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "Competitive",
+        "job_description": "We are looking for a talented graphic designer to join our team and help us create beautiful designs.",
+        "job_responsibility": "Create graphics and designs for marketing materials and web content.",
+        "educational_requirements": "Bachelor's degree in Graphic Design or related field.",
+        "experiences": "2+ years of experience in graphic design.",
+        "contact_information": {
+            "phone": "123-456-7890",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": 5,
+        "company_logo": "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta.png",
+        "job_title": "Graphic Designer",
+        "company_name": "Example Company",
+        "remote_or_onsite": "Remote",
+        "location": "Any",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "Competitive",
+        "job_description": "We are looking for a talented graphic designer to join our team and help us create beautiful designs.",
+        "job_responsibility": "Create graphics and designs for marketing materials and web content.",
+        "educational_requirements": "Bachelor's degree in Graphic Design or related field.",
+        "experiences": "2+ years of experience in graphic design.",
+        "contact_information": {
+            "phone": "123-456-7890",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": 6,
+        "company_logo": "https://logos-world.net/wp-content/uploads/2020/04/Huawei-Logo.png",
+        "job_title": "Graphic Designer",
+        "company_name": "Example Company",
+        "remote_or_onsite": "Remote",
+        "location": "Any",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "Competitive",
+        "job_description": "We are looking for a talented graphic designer to join our team and help us create beautiful designs.",
+        "job_responsibility": "Create graphics and designs for marketing materials and web content.",
+        "educational_requirements": "Bachelor's degree in Graphic Design or related field.",
+        "experiences": "2+ years of experience in graphic design.",
+        "contact_information": {
+            "phone": "123-456-7890",
+            "email": "jobs@example.com"
+        }
+    }
+]
