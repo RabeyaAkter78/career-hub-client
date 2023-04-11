@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "logo": "https://t3.ftcdn.net/jpg/03/66/65/76/240_F_366657624_SxrhX9R1WH7XlQ6usdltuPu9ND1s8PjQ.jpg",
+    "job_category": "Software Engineering",
+    "available_job_number": 500
+  },
+  {
+    "id": 2,
+    "logo": "https://t3.ftcdn.net/jpg/03/66/65/76/240_F_366657624_SxrhX9R1WH7XlQ6usdltuPu9ND1s8PjQ.jpg",
+    "job_category": "Marketing",
+    "available_job_number": 300
+  },
+  {
+    "id": 3,
+    "logo": "https://t3.ftcdn.net/jpg/03/66/65/76/240_F_366657624_SxrhX9R1WH7XlQ6usdltuPu9ND1s8PjQ.jpg",
+    "job_category": "Data Science",
+    "available_job_number": 200
+  },
+  {
+    "id": 4,
+    "logo": "https://t3.ftcdn.net/jpg/03/66/65/76/240_F_366657624_SxrhX9R1WH7XlQ6usdltuPu9ND1s8PjQ.jpg",
+    "job_category": "Product Management",
+    "available_job_number": 500
+  }
+]
+
+
+
