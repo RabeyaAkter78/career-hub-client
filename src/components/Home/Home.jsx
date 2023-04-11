@@ -27,7 +27,7 @@ const Home = () => {
 
 
     return (
-        <div className='container mx-auto mt-8 mb-8' >
+        <div className='container mx-auto mt-8 mb-8 p-5' >
             <div className='grid grid-cols-1 md:grid-cols-2  '>
                 <div className=''>
                     <h1 className='banner-title font-bold text-3xl'>One Step Closer To Your <span className='text-indigo-500'>Dream Job</span></h1>

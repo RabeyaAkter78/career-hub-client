@@ -10,7 +10,7 @@ const Header = () => {
 
     return (
 
-        <div className='container mx-auto '>
+        <div className='container mx-auto  p-5'>
             {/* <span> {open === true ? <FontAwesomeIcon icon={faXmark} />
                 : <FontAwesomeIcon icon={faBars} />
                     }</span> */}

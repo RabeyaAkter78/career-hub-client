@@ -15,7 +15,7 @@ const Statistics = () => {
 
 
     return (
-        <div className='container mx-auto mt-12 text-indigo-500 text-center text-xl font-bold'>
+        <div className='container mx-auto mt-12 p-5 text-indigo-500 text-center text-xl font-bold'>
             <h2>Assignment Mark pie chart</h2>
 
             <PieChart className='mx-auto' width={400} height={400}>

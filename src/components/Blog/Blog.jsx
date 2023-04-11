@@ -3,7 +3,7 @@ import "./Blog.css"
 
 const Blog = () => {
     return (
-        <div className='container mx-auto text-2xl font-semibold  text-center  mt-12'>
+        <div className='container mx-auto text-2xl font-semibold  text-center  mt-12 p-5'>
             <div className='' >
                 <div className='blog-question mt-4'>
                     <li className='text-indigo-500'> When should you use context API?</li>
