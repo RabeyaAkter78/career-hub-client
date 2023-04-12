@@ -5,12 +5,16 @@ import { faDollar, faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
 import { useLoaderData } from 'react-router-dom'
 import JobDetail from '../JobDetail/JobDetail';
+import { useNavigate } from 'react-router-dom'
 
 const FeaturedJob = ({ data }) => {
     const { company_logo, job_title, company_name, remote_or_onsite, fulltime_or_parttime, location, salary, id } = data;
 
     // const jobs = useLoaderData();
-
+    const navigate = useNavigate()
+    const getIdFunc = (id) => {
+        navigate(`/featuredJob/${id}`);
+    }
 
     return (
         <div>
@@ -37,8 +41,9 @@ const FeaturedJob = ({ data }) => {
                 } */}
 
 
-                <button className='applyNow-btn'>
-                    <Link to={`/featuredJob/${id}`}>View Details</Link>
+                <button onClick={() => getIdFunc(id)} className='applyNow-btn'>
+                    {/* <Link to={`/featuredJob/${id}`}>View Details</Link> */}
+                    View Details
                 </button>
             </div>
         </div>

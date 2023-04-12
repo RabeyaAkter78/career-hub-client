@@ -8,8 +8,8 @@ import AppliedJobs from '../AppliedJobs/AppliedJobs';
 
 const Home = () => {
     const jobs = useLoaderData();
-    // console.log(jobs)
-
+    const [carts, setCarts] = useState([]);
+    const [showData, setShowData] = useState(false);
     const [datas, setDatas] = useState([]);
 
     useEffect(() => {
@@ -17,14 +17,20 @@ const Home = () => {
             const res = await fetch('/featuredJobs.json');
             const data = await res.json();
             setDatas(data);
-            console.log(data)
-
+            console.log(data);
         }
         fetchData();
-
-
     }, [])
 
+    useEffect(() => {
+        if (showData) {
+            setCarts(datas)
+        }
+        else {
+            const newData = datas.slice(0, 4);
+            setCarts(newData);
+        }
+    }, [showData, datas])
 
 
     return (
@@ -62,17 +68,14 @@ const Home = () => {
 
                 <div className='job-container container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4'>
                     {
-                        datas.map(data => <FeaturedJob
+                        carts?.map(data => <FeaturedJob
                             key={data.id}
                             data={data}
                         ></FeaturedJob>)
                     }
                 </div>
+                <button onClick={() => setShowData(!showData)} className='applyNow-btn'>{showData ? "Show less" : "Show all"}</button>
             </div>
-
-          
-
-
 
         </div>
     );
