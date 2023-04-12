@@ -10,14 +10,14 @@ const Header = () => {
 
     return (
 
-        <div className='container mx-auto  p-5'>
+        <div className='banner text-white container mx-auto  p-5 backgr'>
             {/* <span> {open === true ? <FontAwesomeIcon icon={faXmark} />
                 : <FontAwesomeIcon icon={faBars} />
                     }</span> */}
 
 
             <nav className='flex justify-between items-center mt-8 container mx-auto'>
-                <h1 className='text-purple-800 text-2xl font-bold'>Job Hunter</h1>
+                <h1 className=' text-2xl font-bold'>Job Hunter</h1>
                 <div className='font-bold' >
                     <Link to='/'>Home</Link>
                     <Link to='/appliedJobs'>AppliedJobs</Link>
