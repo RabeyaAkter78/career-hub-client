@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
+
+import { Footer, Navbar } from 'flowbite-react';
 
 const Header = () => {
     const [open, setOpen] = useState(false);
@@ -10,24 +10,51 @@ const Header = () => {
 
     return (
 
-        <div className='banner text-white container mx-auto  p-5 backgr'>
-            {/* <span> {open === true ? <FontAwesomeIcon icon={faXmark} />
-                : <FontAwesomeIcon icon={faBars} />
-                    }</span> */}
+        <div className='banner  container mx-auto z-50  bg-slate-400 p-5'>
 
+            <Navbar className='p-5 '
+                fluid={true}
+                rounded={true}
+            >
+                <Navbar.Brand >
+                    <span className="self-center whitespace-nowrap text-xl font-semibold text-indigo-500 "> Job Hunter</span>
+                </Navbar.Brand>
+                <Navbar.Toggle />
+                <Navbar.Collapse className=''>
+                    <Navbar.Link>
+                        <Link to="/"> Home</Link>
+                    </Navbar.Link>
 
-            <nav className='flex justify-between items-center mt-8 container mx-auto'>
-                <h1 className=' text-2xl font-bold'>Job Hunter</h1>
-                <div className='font-bold' >
-                    <Link to='/'>Home</Link>
-                    <Link to='/appliedJobs'>AppliedJobs</Link>
-                    <Link to='/statistics'>Statistics</Link>
-                    <Link to='/blog'>Blogs</Link>
-                </div>
-                <button className='applyNow-btn hover:bg-violet-900 font-medium'>Apply Now</button>
-            </nav>
+                    <Navbar.Link>
+                        <Link to='/appliedJobs'>AppliedJobs</Link>
+                    </Navbar.Link>
+
+                    <Navbar.Link >
+                        <Link to='/statistics'>Statistics</Link>
+                    </Navbar.Link>
+                    <Navbar.Link >
+                        <Link to='/blog'>Blogs</Link>
+                    </Navbar.Link>
+
+                </Navbar.Collapse>
+            </Navbar>
+          
+
         </div>
     );
 };
 
 export default Header;
+
+{/* <div className='grid grid-cols-5 md:grid-cols-2 container mxx-auto mt-12 mb-14 bg-slate-950 text-white'>
+<div>
+    <h3>Job Hunter</h3>
+
+</div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+
+</div> */}

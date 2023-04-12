@@ -1,14 +1,19 @@
-nav a{
+nav a {
   margin-right: 20px;
-   font-size: 20px;
+  font-size: 20px;
 }
-.applyNow-btn{
-    border: 2px solid rgb(158, 74, 218);
-    border-radius: 5px;
-    background-color: blueviolet;
-    color: white;
-    padding: 10px;
+
+.applyNow-btn {
+  border: 2px solid rgb(158, 74, 218);
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
 }
-.banner{
+
+.banner {
   background-image: url('https://as1.ftcdn.net/v2/jpg/02/68/48/86/1000_F_268488616_wcoB2JnGbOD2u3bpn2GPmu0KJQ4Ah66T.jpg');
+
+  position:sticky;
+  top: 0;
 }

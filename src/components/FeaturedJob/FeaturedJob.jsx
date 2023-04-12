@@ -28,18 +28,10 @@ const FeaturedJob = ({ data }) => {
                         <p className='job-type'>{fulltime_or_parttime}</p>
                     </div>
                 </div>
-                <div className='flex items-center gap-4 font-semibold'>
+                <div className='flex items-center gap-4 font-semibold '>
                     <p><FontAwesomeIcon icon={faLocationDot} /> {location}</p>
                     <p>Salary: <FontAwesomeIcon icon={faDollar} />{salary}</p>
                 </div>
-
-                {/* {
-                    jobs.map(job => <JobDetail
-                        key={job.id}
-                        job={job}
-                    ></JobDetail>)
-                } */}
-
 
                 <button onClick={() => getIdFunc(id)} className='applyNow-btn'>
                     {/* <Link to={`/featuredJob/${id}`}>View Details</Link> */}

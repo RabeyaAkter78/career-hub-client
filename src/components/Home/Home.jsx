@@ -74,7 +74,7 @@ const Home = () => {
                         ></FeaturedJob>)
                     }
                 </div>
-                <button onClick={() => setShowData(!showData)} className='applyNow-btn'>{showData ? "Show less" : "Show all"}</button>
+                <button onClick={() => setShowData(!showData)} className='applyNow-btn mx-auto ml-96'>{showData ? "Show less" : "Show all"}</button>
             </div>
 
         </div>

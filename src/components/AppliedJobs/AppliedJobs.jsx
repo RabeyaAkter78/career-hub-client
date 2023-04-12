@@ -26,7 +26,7 @@ const AppliedJobs = () => {
     }
     return (
         <div>
-            <div className='container mx-auto mt-16 flex justify-center items-center gap-4'>
+            <div className=' container mx-auto mt-16 flex justify-center items-center gap-4'>
                 <button onClick={() => setFilter("Remote")} className='applyNow-btn'>Remote</button>
 
                 <button onClick={() => setFilter("Onsite")} className='applyNow-btn'>On-site</button>
